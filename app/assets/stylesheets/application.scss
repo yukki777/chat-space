@@ -1,5 +1,12 @@
-@import "./reset";
-@import "./chats";
+@import "config/colors";
+@import "config/font-size";
+@import "config/reset";
+@import "mixins/mixin";
+@import "mixins/vendor_prefix";
+@import "modules/side_bar";
+@import "modules/chat";
+@import "modules/user";
+@import "messages/messages.scss";
 @import "font-awesome";
 
 // 別ファイル_reset.scss呼び出し　. が一個だから一個上からパソコンが探すっていみ
